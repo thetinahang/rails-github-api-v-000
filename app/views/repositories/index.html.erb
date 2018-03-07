@@ -2,6 +2,8 @@
   <h1><%= session[:username] %>'s Repos</h1>
   <div>
     <% if @repos %>
+      <% @repos.each do |repo| %>
+      <% end %> 
     <% end %> 
   </div>
 
