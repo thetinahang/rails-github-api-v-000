@@ -1,6 +1,8 @@
 <div class = "container">
   <h1><%= session[:username] %>'s Repos</h1>
   <div>
+    <% if @repos %>
+    <% end %> 
   </div>
 
   <%= form_tag("/repositories/create", method: "post") do %>
