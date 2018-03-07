@@ -3,6 +3,7 @@
   <div>
     <% if @repos %>
       <% @repos.each do |repo| %>
+        <p><%= repo['name'] %></p>
       <% end %> 
     <% end %> 
   </div>
